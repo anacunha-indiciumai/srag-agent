@@ -1,0 +1,18 @@
+# Data: large, public, downloaded by each user (see README)
+data/raw/
+
+# Runtime output
+logs/
+reports/*
+!reports/.gitkeep
+
+# Secrets and environments
+.env
+.env.*
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
